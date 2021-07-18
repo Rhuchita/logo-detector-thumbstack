@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+.text {
+  background-color: rgb(0, 0, 0);
+  color: #ffff00;
+  font-size: 4vw; /* Responsive font size */
+  font-weight: bold;
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+.predict {
+  color: #ffd700;
+}
+
+#pwd {
+  text-align: center;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+}
+
+.glow {
+  font-size: 5vw;
+  display: inline-block;
+}
